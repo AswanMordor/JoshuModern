@@ -1,2 +1,3 @@
 # JoshuModern
 Modern Version of Joshu, for Web
+STATUS: Will start working on a CSS API next, to start making standard layout schemes, colors, buttons etc...
