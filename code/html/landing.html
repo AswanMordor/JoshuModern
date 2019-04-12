@@ -16,9 +16,11 @@
     <!--Side Nav Menu-->
     <div id="sideMenu" class="sidebar"></div>
 
+    <div id="sideNav" class="sideMenu"></div>
+
     <!--Home page content-->
     <div id="page" class="page">
-      <button class="openbtn" onclick="openNav()">&#9776;</button>
+      <button class="openbtn" onclick="toggleSideNav()">&#9776;</button>
       <div class="header">
         <object
           data="../../assets/svg/JOSHU2.svg"
@@ -29,28 +31,13 @@
         </object>
       </div>
       <div class="content">
-        <p id="aboutContent">
-          Welcome to the Japanese Online Self-Help Utility, or JOSHU for short.
-          In Japanese, JOSHU literally means "assistant", or "tutor", which is
-          what this website attempts to do to anyone interested in learning the
-          Japanese language. JOSHU was first created by Nan Puthaaroon for her
-          creative thesis as one of the Plan II requirements. Various students
-          from UT Austin Japanese Program, including F. Bickerstaff (Student
-          Technology Assistant), L. Jones (STA), K. Goetz (STA), Tan Nguyen, A.
-          Young, E. Capps, L. Yangyingxong, J. Orland, L. O'Connell, C. Leng
-          (student developer), A. LaGuette (student developer), M. Rogoysk, N.
-          Kim, J. Wang, V. Simms, A. Stites, E. Allen, B. Contreras, L. Yang, E.
-          Granados, E. Smith, A. Juarez, K. Wang, and Y. Watanabe, assisted in
-          developing this site. TAs, graders, and instructors at UT Austin,
-          including K. Kawachi, A. Hoshino, T. Imai, S. Wakao, Y. Yaguchi, M.
-          Megumi, S. Oshima, K. Abe, T. Motoike, K. Sakamoto, S. Tsujii, M.
-          Togo, K. Amano, M. Amano, F. Bai (programming), M. Leonard, T. Sakuma,
-          C. Cooke, and Y. Aida also assisted in developing this site. JOSHU is
-          supported by a grant from the UT Austin Liberal Arts Instructional
-          Technology Services. The grammar video section is supported by a ~FAST
-          Tex grant from the UT Austin DIIA (Division of Instructional
-          Innovation & Assessment).
-        </p>
+        <object
+          data="../../assets/svg/Japanese Online Self-Help Utility.svg"
+          type="image/svg+xml"
+          class="joshuTitle"
+        >
+          <h1>JOSHU</h1>
+        </object>
       </div>
     </div>
   </body>

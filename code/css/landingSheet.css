@@ -15,10 +15,14 @@
 
 .content {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: white;
   width: 100%;
 }
 
 .joshuTitle {
-  background-size: 70%;
+  background-size: 50%;
+  padding: 0;
+  margin: 0;
 }
