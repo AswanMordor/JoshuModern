@@ -1,0 +1,24 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.joshuTitle {
+  background-size: 70%;
+}
